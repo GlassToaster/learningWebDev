@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML Forms</title>
+    </head>
+
+    <body>
+
+        <header>
+
+            <h1>James Peters</h1>
+            <p>Learning for the rest of my life.</p>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="communities.html">Communities</a></li>
+                    <li><a href="contactMe.html">Contact Me</a></li>
+                    <li><a href="forms.html">Forms</a></li>
+                    <li><a href="table.html">Tables</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <form>
+            <label for="firstName">First Name:</label>
+            <input id="firstName" Type="text" name="firstName">
+
+            <label for="lastName">Last Name</label>
+            <input id="lastName" type="Text" name="lastName">
+
+            <input type="submit" value="Save">
+        </form>
+
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <input type="submit" value="Save">
+        </form>
+
+        <form>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone"> 
+
+            <input type="submit" value="Save">
+
+        </form>
+
+        <form>
+
+            <label for="yourMessage">Your Message:</label>
+            <textarea id="yourMessage" name="yourMessage"></textarea>
+
+
+            <input type="submit" value="Save">
+
+        </form>
+
+        <form>
+
+            <label for="favoritePerson">Who is your favorite Person?</label>
+            <select name="favoritePerson" id="favoritePerson">
+                <option value="incorrect">Bryan</option>
+                <option value="incorrect">Inola</option>
+                <option value="correct">James</option>
+                <option value="incorrect">Jordan</option>
+                <option value="incorrect">Theresa</option>
+            </select>
+
+            <input type="submit" value="Save">
+
+        </form>
+
+        <form>
+
+            <fieldset>
+                <legend>What i the answer to: 2-1 </legend>
+                <input value="correct" id="one" type="radio" name="mathProblem"><label for="one">1</label>
+                <input value="incorrect" id="negativeThree" type="radio" name="mathProblem"><label for="negativeThree">-3</label>
+                <input value="incorrect" id="two" type="radio" name="mathProblem"><label for="two">2</label>
+            </fieldset>
+
+            <input type="submit" value="Save">
+
+        </form>
+
+        <form>
+
+            <fieldset>
+                <legend>Who is a cool person? (Check all that apply)</legend>
+                <input value="coolBryan" id="bryan" name="coolpeople" type="checkbox"><label for="bryan">Bryan</label>
+                <input value="coolInola" id="inola" name="coolpeople" type="checkbox"><label for="inola">Inola</label>
+                <input value="coolJames" id="james" name="coolpeople" type="checkbox"><label for="james">James</label>
+                <input value="coolJordan" id="jordan" name="coolpeople" type="checkbox"><label for="jordan">Jordan</label>
+                <input value="coolTheresa" id="theresa" name="coolpeople" type="checkbox"><label for="theresa">Theresa</label>
+            </fieldset>
+
+            <input type="submit" value="Save">
+            
+        </form>
+
+        <footer>
+
+            <p>James Peters | Portfolio</p>
+
+        </footer>
+
+    </body>
+
+</html>
