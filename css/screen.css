@@ -1,8 +1,55 @@
-h1{
-    color: orange;
+html {
+    background-color: #609CE1;
+}
+body {
+    margin: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #E1ECF9;
+    font-family: Tahoma, sans-serif;
+    font-size: 87%;
+}
+header {
+color: #133863;
+}
+header h1 {
+    padding-top: 20px;
+    color: #133863;
+    margin: 0;
+    font-weight: normal;
+}
+header p {
+    margin: 0;
+}
+footer {
     text-align: center;
+    font-size: 85%;
+    color: #609CE1;
+    padding-bottom: 5px;
+}
+.content{
+    border-top: 3px solid #091D34;
+    border-bottom: 3px solid #091D34;
+    padding-bottom: 20px;
+}
+.food {
+    width: 50%;
+    float: left;
+}
+.tBrands {
+    width: 50%;
+    float: Right;
+}
+.group:before,
+.group:after {
+	content: "";
+	display: table;
 }
 
-p{
-    color: green;
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
 }
