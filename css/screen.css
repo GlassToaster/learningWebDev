@@ -1,20 +1,20 @@
 html {
-    background-color: #609CE1;
+    background-color: #347B98;
 }
 body {
     margin: 40px;
     padding-left: 40px;
     padding-right: 40px;
-    background-color: #E1ECF9;
+    background-color: #E4F1F6;
     font-family: Tahoma, sans-serif;
     font-size: 87%;
 }
 header {
-color: #133863;
+color: #1A3E4C;
 }
 header h1 {
     padding-top: 20px;
-    color: #133863;
+    color: #1A3E4C;
     margin: 0;
     font-weight: normal;
 }
@@ -38,26 +38,67 @@ float: left;
 .site-nav a {
     display: block;
     text-decoration: none;
-    color: #133863;
+    color: #1A3E4C;
     padding: 10px 20px;
-    border: 3px solid #091D34;
+    border: 3px solid #092834;
     border-bottom: none;
 }
 .site-nav a:hover {
-    background-color: #609CE1;
+    background-color: #67AFCB;
 }
 
-
 /* End Site Navigation */
+
+/* Table style*/
+
+table {
+border-spacing: 0;
+border-collapse: collapse;
+width: 50%;
+margin-top: 20px;
+}
+.col-item-name {
+    width: 25%;
+}
+.col-asile-number {
+    width: 25%;
+}
+.col-item-price {
+    width: 25%;
+}
+.col-item-quanity {
+    width: 25%;
+}
+table th {
+    text-align: left;
+    background-color: #347B98;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .4);
+}
+table th,
+table td {
+    border: 1px solid #347B98;
+    padding: 10px;
+}
+table tbody tr:nth-child(even) {
+    background-color: #67AFCB;
+}
+table.grocery-list tr :nth-child(2),
+table.grocery-list tr :nth-child(3),
+table.grocery-list tr :nth-child(4) {
+    text-align: center;
+}
+
+/* End Table style*/
+
 footer {
     text-align: center;
     font-size: 85%;
-    color: #609CE1;
+    color: #67AFCB;
     padding-bottom: 5px;
 }
 .content{
-    border-top: 3px solid #091D34;
-    border-bottom: 3px solid #091D34;
+    border-top: 3px solid #092834;
+    border-bottom: 3px solid #092834;
     padding-bottom: 20px;
 }
 .food {
