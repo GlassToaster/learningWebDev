@@ -21,6 +21,34 @@ header h1 {
 header p {
     margin: 0;
 }
+/* Site Navigation */
+
+.site-nav {
+    margin-top: 20px;
+}
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+.site-nav li {
+margin-right: 5px;
+list-style: none;
+float: left;
+}
+.site-nav a {
+    display: block;
+    text-decoration: none;
+    color: #133863;
+    padding: 10px 20px;
+    border: 3px solid #091D34;
+    border-bottom: none;
+}
+.site-nav a:hover {
+    background-color: #609CE1;
+}
+
+
+/* End Site Navigation */
 footer {
     text-align: center;
     font-size: 85%;
