@@ -21,6 +21,7 @@ header h1 {
 header p {
     margin: 0;
 }
+
 /* Site Navigation */
 
 .site-nav {
@@ -90,6 +91,78 @@ table.grocery-list tr :nth-child(4) {
 
 /* End Table style*/
 
+/*Form Styling*/
+
+.hidden-lable {
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+form {
+    background-color: #67AFCB;
+    padding: 30px 40px;
+    
+}
+input,
+textarea,
+select {
+    font-family: Tahoma, sans-serif;
+    font-size: 100%;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 40px;
+    margin-bottom: 15px;
+    border: 1px solid #1A3E4C;
+    resize: none;
+    outline: none;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border: 1px solid #FC600A;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .13);
+}  
+input[type="submit"] {
+    width: 25%;
+    box-sizing: border-box;
+    background-color:  #1A3E4C;
+    color: #E4F1F6;
+    padding: 10px 0;
+    border: 1px solid #347B98;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+    outline: none;
+}
+input[type="submit"]:hover:hover {
+    background-color:  #347B98;
+}
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #1A3E4C;
+    margin-bottom: 15px;
+}
+legend {
+    margin-bottom: 15px;
+}
+
+/*End Form Styling*/
+
 footer {
     text-align: center;
     font-size: 85%;
@@ -101,6 +174,9 @@ footer {
     border-bottom: 3px solid #092834;
     padding-bottom: 20px;
 }
+
+/*Liked things styling*/
+
 .food {
     width: 50%;
     float: left;
@@ -109,16 +185,21 @@ footer {
     width: 50%;
     float: Right;
 }
+
+/* End Liked Things Styling*/
+
+/*Child Clearing*/
+
 .group:before,
 .group:after {
 	content: "";
 	display: table;
 }
-
 .group:after {
 	clear: both;
 }
-
 .group {
 	zoom: 1;
 }
+
+/*End  bChild Clearing*/

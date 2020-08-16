@@ -26,42 +26,25 @@
 
         <div class="content group">
 
-        <form>
-            <label for="firstName">First Name:</label>
-            <input id="firstName" Type="text" name="firstName">
-
-            <label for="lastName">Last Name</label>
-            <input id="lastName" type="Text" name="lastName">
-
-            <input type="submit" value="Save">
-        </form>
+        <header>
+            <h1>Create your account.</h1>
+        </header>
 
         <form>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-            <input type="submit" value="Save">
-        </form>
+            <label for="firstName" class="hidden-lable">First Name:</label>
+            <input id="firstName" Type="text" name="firstName" placeholder="First Name">
 
-        <form>
+            <label for="lastName" class="hidden-lable">Last Name</label>
+            <input id="lastName" type="Text" name="lastName" placeholder="Last Name">
 
-            <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone"> 
+            <label for="email" class="hidden-lable">Email:</label>
+            <input type="email" id="email" name="email" placeholder="E-Mail">
 
-            <input type="submit" value="Save">
+            <label for="phone" class="hidden-lable">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number">
 
-        </form>
-
-        <form>
-
-            <label for="yourMessage">Your Message:</label>
-            <textarea id="yourMessage" name="yourMessage"></textarea>
-
-
-            <input type="submit" value="Save">
-
-        </form>
-
-        <form>
+            <label for="yourMessage" class="hidden-lable">Your Message:</label>
+            <textarea id="yourMessage" name="yourMessage" placeholder="Place any additional comments or information here."></textarea>
 
             <label for="favoritePerson">Who is your favorite Person?</label>
             <select name="favoritePerson" id="favoritePerson">
@@ -72,24 +55,12 @@
                 <option value="incorrect">Theresa</option>
             </select>
 
-            <input type="submit" value="Save">
-
-        </form>
-
-        <form>
-
             <fieldset>
                 <legend>What is the answer to: 2-1 </legend>
                 <input value="correct" id="one" type="radio" name="mathProblem"><label for="one">1</label>
                 <input value="incorrect" id="negativeThree" type="radio" name="mathProblem"><label for="negativeThree">-3</label>
                 <input value="incorrect" id="two" type="radio" name="mathProblem"><label for="two">2</label>
             </fieldset>
-
-            <input type="submit" value="Save">
-
-        </form>
-
-        <form>
 
             <fieldset>
                 <legend>Who is a cool person? (Check all that apply)</legend>
@@ -100,8 +71,8 @@
                 <input value="coolTheresa" id="theresa" name="coolpeople" type="checkbox"><label for="theresa">Theresa</label>
             </fieldset>
 
-            <input type="submit" value="Save">
-            
+            <input type="submit" value="Save and submit">
+
         </form>
 
         </div>
