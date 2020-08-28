@@ -2,24 +2,23 @@ html {
     background-color: #347B98;
 }
 body {
-    margin: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
-    background-color: #E4F1F6;
+    margin: 0px;
+    padding: 0px;
     font-family: Tahoma, sans-serif;
     font-size: 87%;
 }
 header {
-color: #1A3E4C;
+   /* background-color: #67AFCB; */
 }
 header h1 {
     padding-top: 20px;
-    color: #1A3E4C;
+    color: #092834;
     margin: 0;
     font-weight: normal;
 }
 header p {
     margin: 0;
+    color: #fff;
 }
 
 /* Site Navigation */
@@ -39,7 +38,7 @@ float: left;
 .site-nav a {
     display: block;
     text-decoration: none;
-    color: #1A3E4C;
+    color: #fff;
     padding: 10px 20px;
     border: 3px solid #092834;
     border-bottom: none;
@@ -49,6 +48,22 @@ float: left;
 }
 
 /* End Site Navigation */
+
+/* Content Styling */
+
+.content{
+    border-top: 3px solid #092834;
+    border-bottom: 3px solid #092834;
+    padding-bottom: 20px;
+    background-color: #E4F1F6;
+
+}
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* End Content Styling */
 
 /* Table style*/
 
@@ -102,7 +117,6 @@ table.grocery-list tr :nth-child(4) {
 }
 
 form {
-    background-color: #67AFCB;
     padding: 30px 40px;
     
 }
@@ -168,11 +182,6 @@ footer {
     font-size: 85%;
     color: #67AFCB;
     padding-bottom: 5px;
-}
-.content{
-    border-top: 3px solid #092834;
-    border-bottom: 3px solid #092834;
-    padding-bottom: 20px;
 }
 
 /*Liked things styling*/

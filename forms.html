@@ -8,72 +8,81 @@
 
     <body>
 
-        <header>
+        <div class="container">
 
-            <h1>James Peters</h1>
-            <p>Learning for the rest of my life.</p>
+            <header>
 
-            <nav class="site-nav">
-                <ul class="group">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="communities.html">Communities</a></li>
-                    <li><a href="contactMe.html">Contact Me</a></li>
-                    <li><a href="forms.html">Forms</a></li>
-                    <li><a href="table.html">Tables</a></li>
-                </ul>
-            </nav>
-        </header>
+                <h1>James Peters</h1>
+                <p>Learning for the rest of my life.</p>
+
+                <nav class="site-nav">
+                    <ul class="group">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="communities.html">Communities</a></li>
+                        <li><a href="contactMe.html">Contact Me</a></li>
+                        <li><a href="forms.html">Forms</a></li>
+                        <li><a href="table.html">Tables</a></li>
+                    </ul>
+                </nav>
+
+            </header>
+
+        </div>
 
         <div class="content group">
 
-        <header>
-            <h1>Create your account.</h1>
-        </header>
+            <div class="container">
 
-        <form>
-            <label for="firstName" class="hidden-lable">First Name:</label>
-            <input id="firstName" Type="text" name="firstName" placeholder="First Name">
+                <p>
+                    <h1>Create your account.</h1>
+                </p>
+    
+                <form>
+                    <label for="firstName" class="hidden-lable">First Name:</label>
+                    <input id="firstName" Type="text" name="firstName" placeholder="First Name">
+    
+                    <label for="lastName" class="hidden-lable">Last Name</label>
+                    <input id="lastName" type="Text" name="lastName" placeholder="Last Name">
+    
+                    <label for="email" class="hidden-lable">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="E-Mail">
+    
+                    <label for="phone" class="hidden-lable">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+    
+                    <label for="yourMessage" class="hidden-lable">Your Message:</label>
+                    <textarea id="yourMessage" name="yourMessage" placeholder="Place any additional comments or information here."></textarea>
+    
+                    <label for="favoritePerson">Who is your favorite Person?</label>
+                    <select name="favoritePerson" id="favoritePerson">
+                        <option value="incorrect">Bryan</option>
+                        <option value="incorrect">Inola</option>
+                        <option value="correct">James</option>
+                        <option value="incorrect">Jordan</option>
+                        <option value="incorrect">Theresa</option>
+                    </select>
+    
+                    <fieldset>
+                        <legend>What is the answer to: 2-1 </legend>
+                        <input value="correct" id="one" type="radio" name="mathProblem"><label for="one">1</label>
+                        <input value="incorrect" id="negativeThree" type="radio" name="mathProblem"><label for="negativeThree">-3</label>
+                        <input value="incorrect" id="two" type="radio" name="mathProblem"><label for="two">2</label>
+                    </fieldset>
+    
+                    <fieldset>
+                        <legend>Who is a cool person? (Check all that apply)</legend>
+                        <input value="coolBryan" id="bryan" name="coolpeople" type="checkbox"><label for="bryan">Bryan</label>
+                        <input value="coolInola" id="inola" name="coolpeople" type="checkbox"><label for="inola">Inola</label>
+                        <input value="coolJames" id="james" name="coolpeople" type="checkbox"><label for="james">James</label>
+                        <input value="coolJordan" id="jordan" name="coolpeople" type="checkbox"><label for="jordan">Jordan</label>
+                        <input value="coolTheresa" id="theresa" name="coolpeople" type="checkbox"><label for="theresa">Theresa</label>
+                    </fieldset>
+    
+                    <input type="submit" value="Save and submit">
+    
+                </form>
 
-            <label for="lastName" class="hidden-lable">Last Name</label>
-            <input id="lastName" type="Text" name="lastName" placeholder="Last Name">
-
-            <label for="email" class="hidden-lable">Email:</label>
-            <input type="email" id="email" name="email" placeholder="E-Mail">
-
-            <label for="phone" class="hidden-lable">Phone Number:</label>
-            <input type="tel" id="phone" name="phone" placeholder="Phone Number">
-
-            <label for="yourMessage" class="hidden-lable">Your Message:</label>
-            <textarea id="yourMessage" name="yourMessage" placeholder="Place any additional comments or information here."></textarea>
-
-            <label for="favoritePerson">Who is your favorite Person?</label>
-            <select name="favoritePerson" id="favoritePerson">
-                <option value="incorrect">Bryan</option>
-                <option value="incorrect">Inola</option>
-                <option value="correct">James</option>
-                <option value="incorrect">Jordan</option>
-                <option value="incorrect">Theresa</option>
-            </select>
-
-            <fieldset>
-                <legend>What is the answer to: 2-1 </legend>
-                <input value="correct" id="one" type="radio" name="mathProblem"><label for="one">1</label>
-                <input value="incorrect" id="negativeThree" type="radio" name="mathProblem"><label for="negativeThree">-3</label>
-                <input value="incorrect" id="two" type="radio" name="mathProblem"><label for="two">2</label>
-            </fieldset>
-
-            <fieldset>
-                <legend>Who is a cool person? (Check all that apply)</legend>
-                <input value="coolBryan" id="bryan" name="coolpeople" type="checkbox"><label for="bryan">Bryan</label>
-                <input value="coolInola" id="inola" name="coolpeople" type="checkbox"><label for="inola">Inola</label>
-                <input value="coolJames" id="james" name="coolpeople" type="checkbox"><label for="james">James</label>
-                <input value="coolJordan" id="jordan" name="coolpeople" type="checkbox"><label for="jordan">Jordan</label>
-                <input value="coolTheresa" id="theresa" name="coolpeople" type="checkbox"><label for="theresa">Theresa</label>
-            </fieldset>
-
-            <input type="submit" value="Save and submit">
-
-        </form>
+            </div>
 
         </div>
 
